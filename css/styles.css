@@ -39,16 +39,20 @@ h2 {
   font-weight: 700;
   margin: 30px;
   padding: 30px;
+  font-size: 30px;
 }
 
 h3 {
   text-align: center;
   font-family: 'Space Grotesk', sans-serif;;
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 30px;
 }
 
 p {
   font-family: 'Quattrocento', serif;
+  font-size: 15px;
+  text-align: center;
 }
 
 .background-green {
@@ -84,7 +88,7 @@ p {
   box-shadow: 10px 5px 5px #468751;
 }
 
-.card-fraise {
+.card-strawberry {
   background: #F7A4B4;
   color: #000;
   border-radius: 20px; 
@@ -97,6 +101,7 @@ p {
   background: #57BB6B;
   color: #fff;
   padding: 15;
+  font-size: 15px;
 }
 
 .contenair-cta {
@@ -114,10 +119,7 @@ p {
 .cta-white {
   background-color: #fff;
   color: #57BB6B;
-}
-
-a {
-  color: #060E17;
+  font-size: 15px;
 }
 
 .picto {
@@ -127,6 +129,10 @@ a {
 footer {
   background-color: #fff;
   padding: 20px;
+}
+
+footer p {
+  color: #57BB6B;
 }
 
 .contenair-img {
@@ -164,8 +170,10 @@ img .img-card s{
 a {
   font-family: 'maven pro' sans-serif;
   font-weight: 400;
+  color: #060E17;
 }
 
 .h2-footer {
   color: #57BB6B;
 }
+
