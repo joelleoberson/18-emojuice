@@ -14,6 +14,7 @@ header {
   background-size: cover;
   text-align: center;
   padding: 20px;
+  border-top: 5px solid #57BB6B;
 }
 
 .box-title {
@@ -23,9 +24,9 @@ header {
   padding: 20px;
   margin: 20px;
 }
-
-img .logo {
-  width: 300px
+.box-title img {
+  width: 200px;
+  margin: auto;
 }
 
 main {
@@ -65,36 +66,35 @@ p {
   background: #FFF8D7;
   color: #000;
   border-radius: 20px; 
-  padding: 5px;
-  margin: 10px;
-  box-shadow: 10px 5px 5px #468751;
 }
 
 .card-kiwi {
   background: #C4F2AD;
   color: #000;
   border-radius: 20px; 
-  padding: 5px;
-  margin: 10px;
-  box-shadow: 10px 5px 5px #468751;
 }
 
 .card-cafe {
   background: #D3C6B2;
   color: #000;
   border-radius: 20px; 
-  padding: 5px;
-  margin: 10px;
-  box-shadow: 10px 5px 5px #468751;
 }
 
 .card-strawberry {
   background: #F7A4B4;
   color: #000;
   border-radius: 20px; 
-  padding: 5px;
+}
+
+.card {
+  border-radius: 20px; 
+  padding: 3px;
   margin: 10px;
   box-shadow: 10px 5px 5px #468751;
+}
+
+.card p {
+  opacity: 60%;
 }
 
 .cta {
@@ -140,7 +140,7 @@ footer p {
   flex-direction: row;
 }
 
-.card .img-card {
+.container-card {
   padding: 40px;
   margin: 15px ;
   border-radius: 5px;
@@ -160,11 +160,6 @@ footer p {
 
 img {
   width: 55px
-}
-
-img .img-card s{
-    display: block;
-    max-width: 100%;
 }
 
 a {
