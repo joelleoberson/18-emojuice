@@ -44,26 +44,31 @@ h3 {
 .background-green {
   background: #57BB6B;
   color: #fff;
+  padding: 30px;
 }
 
 .card-banana {
   background: #FFF8D7;
   color: #000;
+  border-radius: 20px; 
 }
 
 .card-kiwi {
   background: #C4F2AD;
   color: #000;
+  border-radius: 20px; 
 }
 
 .card-cafe {
   background: #D3C6B2;
   color: #000;
+  border-radius: 20px; 
 }
 
 .card-fraise {
   background: #F7A4B4;
   color: #000;
+  border-radius: 20px; 
 }
 
 .cta {
@@ -106,4 +111,30 @@ footer {
   flex-direction: row;
 }
 
+.card .img-card {
+  padding: 40px;
+  margin: 15px ;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+  align-items: flex-end;
+}
 
+.contenair-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  
+}
+
+img {
+  width: 55px
+}
+
+img .img-card s{
+    display: block;
+    max-width: 100%;
+}
