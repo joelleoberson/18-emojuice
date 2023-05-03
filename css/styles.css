@@ -26,6 +26,21 @@ main {
   background: #fff;
 }
 
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: space;
+  font-weight: 300;
+  margin: 30px;
+  padding: 30px;
+}
+
+h3 {
+  text-align: center;
+  font-family: space;
+  font-weight: 300;
+}
+
 .background-green {
   background: #57BB6B;
   color: #fff;
@@ -33,6 +48,21 @@ main {
 
 .card-banana {
   background: #FFF8D7;
+  color: #000;
+}
+
+.card-kiwi {
+  background: #C4F2AD;
+  color: #000;
+}
+
+.card-cafe {
+  background: #D3C6B2;
+  color: #000;
+}
+
+.card-fraise {
+  background: #F7A4B4;
   color: #000;
 }
 
@@ -54,6 +84,11 @@ main {
   border-radius: 20px;   
 }
 
+.cta-white {
+  background-color: #fff;
+  color: #57BB6B;
+}
+
 a {
   color: #060E17;
 }
@@ -65,3 +100,5 @@ a {
 footer {
   background-color: #fff;
 }
+
+
