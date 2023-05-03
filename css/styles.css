@@ -8,3 +8,60 @@ img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  background-image: url(../img/fruit-fond.webp);
+  background-size: cover;
+  text-align: center;
+}
+
+.box-title {
+  background: #fff;
+  color: #57BB6B;
+  padding: 20px;
+  margin: 20px;
+}
+
+main {
+  background: #fff;
+}
+
+.background-green {
+  background: #57BB6B;
+  color: #fff;
+}
+
+.card-banana {
+  background: #FFF8D7;
+  color: #000;
+}
+
+.cta {
+  background: #57BB6B;
+  color: #fff;
+  padding: 15;
+}
+
+.contenair-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenair-cta .cta , .contenair-cta .cta-white {
+  margin: 10px 10px 0px 10px;
+  padding: 15px 15px  15px 15px;
+  border-radius: 20px;   
+}
+
+a {
+  color: #060E17;
+}
+
+.picto {
+  margin: auto;
+}
+
+footer {
+  background-color: #fff;
+}
