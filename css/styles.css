@@ -12,7 +12,6 @@ img {
 header {
   background-image: url(../img/fruit-fond.webp);
   background-size: cover;
-  text-align: center;
   padding: 20px;
   border-top: 5px solid #57BB6B;
 }
@@ -25,8 +24,12 @@ header {
   margin: 20px;
 }
 .box-title img {
-  width: 200px;
+  width: 230px;
   margin: auto;
+}
+
+.box-title p {
+  font-size: 23px;
 }
 
 main {
@@ -44,10 +47,11 @@ h2 {
 }
 
 h3 {
-  text-align: center;
+  text-align: left;
   font-family: 'Space Grotesk', sans-serif;;
   font-weight: 700;
   font-size: 30px;
+  padding: 10px 0px 0px 30px;
 }
 
 p {
@@ -88,13 +92,14 @@ p {
 
 .card {
   border-radius: 20px; 
-  padding: 3px;
-  margin: 10px;
+  margin: 15px;
   box-shadow: 10px 5px 5px #468751;
 }
 
 .card p {
   opacity: 60%;
+  text-align: start;
+  padding: 0px 0px 0px 30px;
 }
 
 .cta {
@@ -133,6 +138,7 @@ footer {
 
 footer p {
   color: #57BB6B;
+  font-size: 15px;
 }
 
 .contenair-img {
@@ -156,10 +162,15 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: space-around; 
+  padding: 0px 0px 10px 0px;
+}
+
+.contenair-img img {
+width: 30px;
 }
 
 img {
-  width: 55px
+  width: 80px
 }
 
 a {
